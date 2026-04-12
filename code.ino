@@ -11,13 +11,13 @@
 #define LED7_PIN 13
 #define LED8_PIN 12
 
-#define WLAN_SSID "Railtel Govt.Poly"
-#define WLAN_PASS "poly12345"
+#define WLAN_SSID "Enter Wifi SSID"
+#define WLAN_PASS "Enter Wifi password"
 
 #define AIO_SERVER "io.adafruit.com"
 #define AIO_SERVERPORT 1883
-#define AIO_USERNAME "ramankaran"
-#define AIO_KEY "aio_hzSj79NYvnHYS08f6QBzAOET1Wkr"
+#define AIO_USERNAME "Enter your username"
+#define AIO_KEY "Enter your IO key"
 
 WiFiClient client;
 Adafruit_MQTT_Client mqtt(&client, AIO_SERVER, AIO_SERVERPORT, AIO_USERNAME, AIO_KEY);
