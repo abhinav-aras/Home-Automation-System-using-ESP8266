@@ -1,4 +1,4 @@
-# IoT Home Automation Using ESP8266, Adafruit IO, and MQTT
+# Home Automation System Using ESP8266 with Google Assistant Integration, Adafruit IO, and MQTT
 
 A Wi-Fi-based IoT project that lets you control **eight LEDs (or suitable low-voltage output modules)** remotely using Adafruit IO feeds. An ESP8266 subscribes to eight MQTT feeds and switches the corresponding GPIO outputs according to the values received.
 
